@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { places } from "../data";
-import places_main from "../assets/places_main.png";
+import places_main from "../assets/tirana.jpg";
 
 const Template = () => {
   return (

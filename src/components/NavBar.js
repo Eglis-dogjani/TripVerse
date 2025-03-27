@@ -11,7 +11,7 @@ class NavBar extends Component {
         return (
             <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
                 <Container>
-                    <Navbar.Brand href="/" onClick={() => window.scrollTo(0, 0)}><img src={logo} alt="logo" style={{height: "50px", width: "50px"}} /><p style={{margin: 10, display:'inline-block'}}>TripVerse</p></Navbar.Brand>
+                    <Navbar.Brand href="/" onClick={() => window.scrollTo(0, 0)}><img src={logo} alt="logo" style={{height: "50px", width: "50px"}} /><p style={{margin: 10, display:'inline-block'}}>Aventurati</p></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
